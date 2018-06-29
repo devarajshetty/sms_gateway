@@ -26,7 +26,7 @@ if(isset($_POST['otp_submit'])){
 		echo "OTP is verified";
 	}
 	else{
-		echo "OTP is Not Verified";
+		echo "OTP is Not Verifieds";
 	}
 
 }
