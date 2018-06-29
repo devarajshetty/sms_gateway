@@ -23,7 +23,7 @@ curl_close($curl);
 if(isset($_POST['otp_submit'])){
 	$otp_pin=$_POST['otp'];
 	if($otp_pin==$otp){
-		echo "OTP Verified";
+		echo "OTP is verified";
 	}
 	else{
 		echo "OTP Not Verified";
