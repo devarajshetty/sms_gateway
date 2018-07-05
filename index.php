@@ -2,7 +2,7 @@
 
 $uname= "fasttnet";
 $password="nitin123";
-//git
+//git addeded
 ?>
 <form name="form_otp" action="otp_verifiction.php" method="POST">
 <input type="text" name="mobile" placeholder="enter your no">
