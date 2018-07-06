@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-
+//added
 $otp=mt_rand(100000,999999);
 // Send SMS HTTP API
 $url="http://panel.adcomsolution.in/http-api.php?username=fasttnet&password=nitin123&senderid=FSTNET&route=1&number=9585850362&message=otp:$otp";
